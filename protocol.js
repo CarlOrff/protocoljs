@@ -153,7 +153,7 @@ function getProtocolPerformance(id) {
 	printProtocol(id);
 }
 
-/* prints navigator.plugins into as HTML table into the element with the id */
+/* prints navigator.plugins into a HTML table into the element with the id */
 function getProtocolPlugin(id) {
 	ptljs_protocol = '<div style="overflow:auto"><div class="table"><table><thead><tr><th>#</th><th>name</th><th>description</th><th>filename</th><th>length (# MIME)</th></tr></thead><tbody>';
 	for (var i = 0; i < navigator.plugins.length; i++)
