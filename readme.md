@@ -8,7 +8,7 @@ Remark that protocol.js uses `eval()`. I will not work if this is forbidden by a
 
 ## Usage
 
-1. Set `ptljs_protocol` to the opening sequence of a HTML table  (usually `ptljs_table_begin`).
+1. Set `ptljs_protocol` to the opening sequence of a HTML table (usually `ptljs_table_begin`).
 2. For every code part call `setProtocol(code)`. It adds a row to `ptljs_protocol`;
 3. Add the closing part to `ptljs_protocol` (usually `ptljs_table_end`).
 4. Call printProtocol(id) with the id of the element where it shall print to.
