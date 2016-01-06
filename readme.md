@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`protocol.js` is a simple script that prints the results of javascript expressions. It was never meant for publication but only as a test page of elementary JS properties of my website [https://ingram-braun.net/public/programming/web/testpages/javascript/]. That's why there is no real user interface. Somebody asked me to upload the code, so here it is. If you don't want to add something, simply go to the above-mentioned URL. You don't need the code then.
+`protocol.js` is a simple script that prints the results of JavaScript expressions. It was never meant for publication but only as a test page of elementary JS properties of my website [https://ingram-braun.net/public/programming/web/testpages/javascript/]. That's why there is no real user interface. Somebody asked me to upload the code, so here it is. If you don't want to add something, simply go to the above-mentioned URL. You don't need the code then.
 
 Remark that protocol.js uses `eval()`. I will not work if this is forbidden by a `Content-Security-Policy` header.
 
