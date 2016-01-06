@@ -1,0 +1,50 @@
+<!doctype html><html>
+<head>
+<script type="text/javascript" src="protocol.js"></script>
+<title>protocol.js</title>
+<style>
+table {
+	border-collapse: collapse;
+}
+td {
+	border: 2px solid;
+	text-align:left
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.counter {
+	text-align:center;
+}
+.table_container {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+</style>
+</head>
+<body>
+<h2><kbd>location</kbd> and <kbd>document</kbd> object</h2>
+<div id="ptljs_location" class="table_container"></div>
+<h2><kbd>window</kbd> object</h2>
+<div id="ptljs_window" class="table_container"></div>
+<h2><kbd>screen</kbd> object</h2>
+<div id="ptljs_screen" class="table_container"></div>
+<h2><kbd>platform</kbd> object</h2>
+<div id="ptljs_platform" class="table_container"></div>
+<h2><kbd>performance</kbd> object</h2>
+<div id="ptljs_performance" class="table_container"></div>
+<h2>Plugins</h2>
+<div id="ptljs_plugins" class="table_container"></div>
+<h2>MIME types</h2>
+<div id="ptljs_mime" class="table_container"></div>
+<script type="text/javascript">
+getProtocolLocation("ptljs_location")
+getProtocolPlatform("ptljs_platform");
+getProtocolWindow("ptljs_window");
+getProtocolScreen("ptljs_screen");
+getProtocolPerformance("ptljs_performance");
+getProtocolPlugin("ptljs_plugins");
+getProtocolMIME("ptljs_mime");
+</script>
+</body>
+</html>
